@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    text-align: center;
+    color: black;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color:green;
+}
+
+.fr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
