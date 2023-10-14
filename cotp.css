@@ -37,8 +37,10 @@ button {
     border: none;
     cursor: pointer;
     width: 60%;
+    border-radius: 10px;
   }
   
   button:hover {
     opacity: 0.8;
+    background-color: orangered;
   }
