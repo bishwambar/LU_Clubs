@@ -7,22 +7,22 @@
     <body>
         <h1 class="heading">LU Clubs</h1>
         <img src="unilogo.png">
-        <h1>Welcome to Leading University Club Website</h1><br>
+        <h1 class="welcome">Welcome to Leading University Club Website</h1><br>
         <div class="main">
             <div class="login">
-                <h1>Login Form</h1><br>
+                <h1 id="login">Login Form</h1><hr><br>
                 <div class="fr">
                     <div>
-                <form id="login" method="post">
+                <form action="cotp.html" id="login" method="post">
                     <label>Student ID:</label>
-                    <input type="number" name="stdid" id="stdid" placeholder="Enter your Student ID">
+                    <input type="number" name="stdid" id="stdid" placeholder="Enter your Student ID" required>
                     <br><br>
 
                     <label>Email:</label>
-                    <input type="email" name="email" id="mail" placeholder="Enter Your Edu Mail">
+                    <input type="email" name="email" id="stdid" class="email" placeholder="Enter Your Edu Mail" required>
                     <br><br>
                 
-                    <button name="otp" id="otp"><a href="cotp.html">Send OTP</a></button>
+                    <input type="submit" id="otp" value="Send OTP">
                     </div>
                 </div>
                     
