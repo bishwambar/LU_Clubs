@@ -7,6 +7,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 250px;
 }
 
 .heading{
@@ -17,10 +18,28 @@ img{
     padding: 0;
 }
 
+hr{
+    height: 10px;
+    width: 400px;
+    background-color: green;
+    margin-top: -15px;
+    margin-bottom: 10px;
+  }
+
 h1{
     text-align: center;
     color:green;
 }
+
+input#otp{
+    width: 300px;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+  }
 
 .fr{
     display: flex;
@@ -33,11 +52,14 @@ button {
     background-color: green;
     color: white;
     padding: 14px 20px;
+    font-size: 16px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 60%;
     border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
   }
   
   button:hover {
