@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LU Clubs </title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <h1 class="heading">LU Clubs</h1>
+        <img src="unilogo.png">
+        <h1 class="welcome">Welcome to Leading University Club Website</h1><br>
+        <div class="main">
+            <div class="login">
+                <h1 id="login">Login Form</h1><hr><br>
+                <div class="fr">
+                    <div>
+                <form action="cotp.html" id="login" method="post">
+                    
+                    <label>Email:</label>
+                    <input type="email" id="stdid" class="email" placeholder="Enter Your Edu Mail" required> <br><br>
+                    
+                    <input type="submit" id="otp" value="Send OTP">
+                    </div>
+                </div>
+                    
+                </form>
+            </div>
+        </div>
+
+        <script>  
+            let student_id = document.getElementById('stdid');
+            let submit = document.getElementById('otp');
+            
+            
+            
+            submit.addEventListener('click', (e) => { 
+                e.preventDefault()
+                let value = student_id.value.toString();
+                let length = value.length; 
+                if(length < 10){
+                    alert('Enter Valid Id');
+                }
+                else{
+                    window.location.href = 'cotp.html';
+                    alert('An OTP code is sending on your email address')
+                }
+            });
+            
+        </script>
+    </body>
+</html>
