@@ -65,7 +65,7 @@ input#stdid{
     margin: 0 auto;
 }
 
-input#otp {
+input#otp { 
     background-color: green;
     color: white;
     padding: 14px 20px;
