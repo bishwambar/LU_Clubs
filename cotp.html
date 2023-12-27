@@ -13,16 +13,28 @@
                 <h1>Login Form</h1><hr><br>
             <div class="fr">
                 <div>
-                <form id="otp" method="post">
                 
-                    <input type="number" name="otp" id="otp" placeholder="Enter OTP here">
-                    <br><br>
 
-                    <button name="login" id="login">Login</button>
-                </div>
-            </div>        
-                </form>
+                    <input type="number" id="otp" placeholder="Enter OTP" required><br><br>
+                    <button id="submit">Login</button>      
+                
             </div>
         </div>
+
+
+            <script>
+                document.getElementById('submit').addEventListener('click', (e) => {
+                    e.preventDefault()
+                const otp = document.getElementById('otp').value;
+       
+        if(otp.toString().length === 4) {
+            window.location.href="home-page.html"
+            alert('Successfully registered')
+        } 
+        else {
+            alert('Enter Valid Otp');
+        }
+    });
+            </script>
     </body>
 </html>
