@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.luclubs{
+    text-align: center;
+    color: black;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color:green;
+}
+
+hr{
+    height: 10px;
+    width: 600px;
+    background-color: green;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.card{
+    width: 300px;
+    margin: 5px;
+}
+
+.card-image{
+    width: 400px;
+    height: 350px;
+    margin-left: 140px;
+    margin-top: 120px;
+}
+
+.place{
+    width: 400px;
+    height: 35px;
+    margin-left: 140px;
+    margin-top: 120px;
+}
+
+.gap-span{
+    margin-left: 15px;
+}
+
+.phone{
+    width: 400px;
+    height: 35px;
+    margin-left: 140px;
+}
+
+.gap-phone{
+    margin-left: 10px;
+}
+
+.email{
+    width: 400px;
+    height: 35px;
+    margin-left: 140px;
+}
+
+.gap-email{
+    margin-left: 10px;
+}
+
+.fbpage{
+    width: 400px;
+    height: 35px;
+    margin-left: 140px;
+}
+
+.gap-fbpage{
+    margin-left: 10px;
+}
+
+.fbpage-link{
+    text-decoration: none;
+    color: black;
+}
