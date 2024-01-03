@@ -49,7 +49,19 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-a:hover{
+.login:hover{
+    background: orangered;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.register:hover{
+    background: orangered;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.about:hover{
     background: orangered;
     border-radius: 10px;
     opacity: 0.8;
@@ -117,6 +129,7 @@ a:hover{
 .card{
     width: 300px;
     margin: 5px;
+    color: black;
 }
 .card-title{
     background-color: green;
@@ -136,7 +149,7 @@ a:hover{
 }
 
 .card-image:hover {
-    transform: scale(1.2) ;
+    transform: scale(1.2);
   }
 
 .heading{
