@@ -50,21 +50,27 @@ nav ul li a{
 }
 
 .login:hover{
-    background: orangered;
-    border-radius: 10px;
-    opacity: 0.8;
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    background-color: white;
+    transition: 0.5s ease-in-out;
 }
 
 .register:hover{
-    background: orangered;
-    border-radius: 10px;
-    opacity: 0.8;
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    background-color: white;
+    transition: 0.5s ease-in-out;
 }
 
 .about:hover{
-    background: orangered;
-    border-radius: 10px;
-    opacity: 0.8;
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    background-color: orangered;
+    transition: 0.5s ease-in-out;
 }
 
 .lu{
