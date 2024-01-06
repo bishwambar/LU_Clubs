@@ -80,8 +80,11 @@ input#otp {
   }
   
   input#otp:hover {
-    opacity: 0.8;
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
     background-color: orangered;
+    transition: 0.5s ease-in-out;
   }
 
   a{
