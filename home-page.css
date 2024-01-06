@@ -215,28 +215,3 @@ nav ul li a{
     object-fit: cover;
     cursor: pointer;
 }
-
-.get{
-    background-color: green;
-    color: white;
-    padding: 14px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 10%;
-    border-radius: 10px;
-    font-weight: 600;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
-}
-
-.get-ticket{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.get:hover{
-    background-color: green;
-}
