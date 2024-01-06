@@ -172,9 +172,6 @@ hr{
     text-align: center; 
 } 
 
-.get-reg{
-    background-color: tomato;
-}
 .get:hover{
     color: white;
     box-shadow: 0 0 5px #ffee10;
