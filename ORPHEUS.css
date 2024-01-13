@@ -1,0 +1,238 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+nav{
+    background: green;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} 
+
+.club-icon{
+    width: 4%;
+    margin: 0 7px;
+}
+
+.luclubs{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace; 
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    padding: 13px 13px;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 60%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.past-event:hover{
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+
+    background-color: white;
+    transition: 0.5s ease-in-out;
+
+
+    
+}
+
+.live-event:hover{ 
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    
+    background-color: white;
+    
+    transition: 0.5s ease-in-out;
+    
+}
+
+.upcoming-event:hover{  
+     color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    
+    background-color: white;
+    
+    transition: 0.5s ease-in-out;
+    
+}
+
+h1{
+    text-align: center;
+    color:green; 
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
+    margin-top: 50px; 
+}
+
+hr{
+    height: 10px;
+    width: 600px;
+    background-color: green;
+    margin-top: -15px; 
+}
+
+.card{
+    /* width: 500px; */
+    width: 100%;
+    margin: 0px 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+ 
+.description{   
+    width: 800px;
+    font-size: 20px;
+    padding-bottom: 50px; 
+}
+
+.place{
+    width: 400px;
+    height: 35px; 
+}
+
+.gap-span{
+    margin-left: 15px;
+}
+
+.phone{
+    width: 400px;
+    height: 35px; 
+}
+
+.gap-phone{
+    margin-left: 10px;
+}
+
+.email{
+    width: 400px;
+    height: 35px; 
+}
+
+.gap-email{
+    margin-left: 10px;
+}
+
+.fbpage{
+    width: 400px;
+    height: 35px; 
+}
+
+.gap-fbpage{
+    margin-left: 10px;
+}
+
+.fbpage-link{
+    text-decoration: none;
+    color: black;
+}
+
+.get{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.get-ticket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+} 
+
+.get:hover{
+    color: white;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+   
+    background-color: black;
+   
+    transition: 0.5s ease-in-out;
+}
+
+.img-container{   
+    
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin: 20px; 
+    background: rgba( 6, 221, 111, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+} 
+
+.img-container img{ 
+    width: 200px;
+    height: 200px;; 
+    border-radius: 10px; 
+    /* make gray effect */
+    /* filter: grayscale(100%);
+    transition: 0.5s; */
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ 
+}
+.img-container img:hover{ 
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out; 
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     
+}
+
+.mail{
+    text-decoration: none;
+    color: black;
+
+} 

@@ -1,0 +1,205 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+nav{
+    background: green;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} 
+
+.club-icon{
+    width: 4%;
+    margin: 0 7px;
+}
+
+.luclubs{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace; 
+}
+
+h1{
+    text-align: center;
+    color: red; 
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
+    margin-top: 50px; 
+}
+
+hr{
+    height: 10px;
+    width: 600px;
+    background-color: red;
+    margin-top: -15px; 
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+  
+input#stdid{
+    width: 300px;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    
+}
+
+.fr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input#otp { 
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+  
+input#otp:hover {
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#bloodgroup{
+    width: 325px;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+ 
+ 
+/* style dropdown inner */
+#bloodgroup option{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+/* style dropdown outer */
+#bloodgroup select{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+} 
+
+#bloodgroup select:hover{
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+#tshirt{
+    width: 335px;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+
+#tshirt option{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#tshirt select{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: 0;
+    padding: 14px;
+    background-color: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#tshirt select:hover{
+    color: black;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+

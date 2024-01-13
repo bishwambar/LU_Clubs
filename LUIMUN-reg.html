@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LUIMUN-reg.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img class="club-icon" src="/assets/Polish_20240112_231029231.png" alt="">
+            <h1 class="luclubs">LU Clubs</h1>
+        </div>
+    </nav><br><br><br>
+
+    <div class="main">
+        <div class="login">
+            <h1 class="login">Delegate Registration Form</h1><hr><br><br>
+
+            <div class="fr">
+                <div>
+                <form action="#" class="login" method="post"> 
+
+                    <label>Delegate Name:</label>
+                    <input type="text" id="stdid" placeholder="Enter your name" required>
+                    <br><br>
+
+                    <label>Email ID:</label>
+                    <input type="email" id="stdid" placeholder="Enter your Email" required>
+                    <br><br>
+
+                    <label>Phone Number:</label>
+                    <input type="number" id="stdid" placeholder="Enter your Phone Number" required>
+                    <br><br>
+
+                    <label>Emergency Phone Number:</label>
+                    <input type="number" id="stdid" placeholder="Enter your Emergency Phone Number" required>
+                    <br><br>
+
+                    <label>Facebook ID URL:</label>
+                    <input type="text" id="stdid" placeholder="Enter your Facebook ID URL" required>
+                    <br><br>
+
+                    <label>Contact Number:</label>
+                    <input type="number" id="stdid" placeholder="Enter your Contact number" required>
+                    <br><br>
+
+                    <label>Academic Level:</label>
+<!-- make a styled dropdown for it -->
+                    <select name="Academic Level" id="stdid" class="dropdown-style">
+                        <option value="none">None</option>
+                        <option value="School">School</option>
+                        <option value="College">College</option>
+                        <option value="University">University</option>
+                    </select>
+                    <br><br>
+
+                    <label>Institution (Specify if not currently affiliated):</label>
+                    <input type="text" id="stdid" placeholder="Enter your Institution" required>
+                    <br><br>
+
+                    <label>Affiliated Club Name:</label>
+                    <input type="text" id="stdid" placeholder="Enter your Affiliated Club Name" required>
+                    <br><br>
+
+                    <label>Previous MUN Experience(If any):</label>
+                    <input type="text" id="stdid" placeholder="Enter your MUN Experience">
+                    <br><br>
+
+                    <!-- <label>Committee Preference(Pick Any Three):</label>
+                    <br><br>
+                    <input type="checkbox" id="" value="UNSC" >
+                    <label for="UNSC">United Nations Security Council (UNSC)</label>
+                    <br><br>
+
+                    <input type="checkbox" id="" value="UNHRC">
+                    <label for="UNHRC">United Nations Human Rights Council (UNHRC)</label>
+                    <br><br>
+
+                    <input type="checkbox" id="" value="WHO">
+                    <label for="WHO">World Health Organization (WHO)</label>
+                    <br><br>
+
+                    <input type="checkbox" id="" value="ICJ">
+                    <label for="ICJ">International Court Of Justice (ICJ)</label>
+                    <br><br>
+
+                    <input type="checkbox" id="" value="UNNA">
+                    <label for="UNNA">United Nations News Agency (UNNA)</label>
+                    <br><br> -->
+
+                    <label>Committee Preference (Pick Any Three):</label>
+                    <br><br>
+                
+                    <input type="checkbox" id="UNSC" value="UNSC" onclick="limitCheckboxes()">
+                    <label for="UNSC">United Nations Security Council (UNSC)</label>
+                    <br><br>
+                
+                    <input type="checkbox" id="UNHRC" value="UNHRC" onclick="limitCheckboxes()">
+                    <label for="UNHRC">United Nations Human Rights Council (UNHRC)</label>
+                    <br><br>
+                
+                    <input type="checkbox" id="WHO" value="WHO" onclick="limitCheckboxes()">
+                    <label for="WHO">World Health Organization (WHO)</label>
+                    <br><br>
+                
+                    <input type="checkbox" id="ICJ" value="ICJ" onclick="limitCheckboxes()">
+                    <label for="ICJ">International Court Of Justice (ICJ)</label>
+                    <br><br>
+                
+                    <input type="checkbox" id="UNNA" value="UNNA" onclick="limitCheckboxes()">
+                    <label for="UNNA">United Nations News Agency (UNNA)</label>
+                    <br><br>
+
+                    <label>Country Preference(Any Three):</label>
+                    <input type="text" id="stdid" placeholder="Enter your Country Preference" required>
+                    <br><br>
+
+                    <label>CA or HOD Code:</label>
+                    <input type="number" id="stdid" placeholder="Enter your HOD Code">
+                    <br><br>
+
+                    <label>Food Preference:</label>
+                    <input type="radio" id="" value="Vegetarian">
+                    <label for="Vegetarian">Vegetarian</label>
+
+                    <input type="radio" id="" value="Non-Vegetarian">
+                    <label for="Non-Vegetarian">Non-Vegetarian</label>
+                    <br><br>
+
+                    <p><b>Registration Fee: 3,200+60(Charge) = 3260 BDT</b></p>
+                    <br><br>
+
+                    <label>Payment Method:</label>
+                    <input type="radio" id="" value="Bkash">
+                    <label for="Bkash">Bkash</label>
+
+                    <input type="radio" id="" value="Nagad">
+                    <label for="Nagad">Nagad</label>
+                    <br><br>
+                    
+                    <label>Transaction ID:</label>
+                    <input type="text" id="stdid" placeholder="Enter the Transaction ID">
+                    <br><br>
+
+                    <input type="submit" id="otp" value="Submit">
+                
+            </div>
+                </div>
+                </form>
+        </div>
+    </div>    
+
+    <script>
+                function limitCheckboxes() {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCount = 0;
+
+            checkboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('change', function() {
+                    if (this.checked) {
+                        checkedCount++;
+                    } else {
+                        checkedCount--;
+                    }
+
+                    if (checkedCount > 3) {
+                        alert("You can select only three committees.");
+                        this.checked = false;
+                        checkedCount--;
+                    }
+                });
+            });
+        }
+
+    </script>
+</body>
+</html>
