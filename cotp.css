@@ -10,9 +10,29 @@ img{
     width: 250px;
 }
 
+nav{
+  background: green;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+} 
+
+.club-icon{
+  width: 4%;
+  margin: 0 8px;
+}
+
 .heading{
     text-align: center;
-    color: black;
+    color: white;
     background-color: green;
     margin: 0;
     padding: 0;
@@ -29,6 +49,7 @@ hr{
 h1{
     text-align: center;
     color:green;
+    font-size: 30px;
 }
 
 input#otp{
