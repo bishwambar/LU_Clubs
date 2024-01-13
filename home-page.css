@@ -16,22 +16,33 @@ nav{
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} 
+
+.club-icon{
+    width: 4%;
+    margin: 0 7px;
 }
 
 .luclubs{
     color: white;
-    text-align: center;
+    /* text-align: center; */
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
+    /* padding: 0 100px; */
     font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
 }
 
-nav ul{
-    float: right;
-    margin-right: 20px;
+nav ul{  
+    margin-left: 50px;
 }
 
 nav ul li{
@@ -215,3 +226,4 @@ nav ul li a{
     object-fit: cover;
     cursor: pointer;
 }
+
